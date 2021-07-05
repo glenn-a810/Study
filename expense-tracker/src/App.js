@@ -1,8 +1,8 @@
 function App() {
   // regular JavaScript, cumbersome
-  // const para = document.createElement('p')
-  // para.textContent = 'This is also visible'
-  // document.getElementById('root').append(para)
+  const para = document.createElement('p')
+  para.textContent = 'This is also visible'
+  document.getElementById('root').append(para)
 
   return(
     <div>
