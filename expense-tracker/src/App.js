@@ -20,14 +20,14 @@ function App() {
     },
     {
       id: 'e3',
-      title: '오드 자가면역억제제 약값',
+      title: '오드 면역억제제',
       amount: 180000,
       date: new Date(2021, 5, 16)
     },
     {
       id: 'e4',
-      title: '쿠팡 생필품 로켓배송',
-      amount: 294670,
+      title: '쿠팡 생필품',
+      amount: 36700,
       date: new Date(2021, 6, 4)
     }
   ]
