@@ -33,19 +33,19 @@ function App() {
     }
   ]
 
-  return React.createElement(
-    'div', 
-    {}, 
-    React.createElement('h2', {}, 'Expense Tracker WebApp'),
-    React.createElement(Expenses, {expenses: expenses})
-  )
-
-  // return(
-  //   <div>
-  //     <h2>Expense Tracker WebApp</h2>
-  //     <Expenses expenses={expenses} />
-  //   </div>
+  // return React.createElement(
+  //   'div', 
+  //   {}, 
+  //   React.createElement('h2', {}, 'Expense Tracker WebApp'),
+  //   React.createElement(Expenses, {expenses: expenses})
   // )
+
+  return(
+    <div>
+      <h2>Expense Tracker WebApp</h2>
+      <Expenses expenses={expenses} />
+    </div>
+  )
 }
 
 export default App
