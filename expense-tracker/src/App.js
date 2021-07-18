@@ -1,5 +1,6 @@
 import React from 'react'
 import Expenses from './components/Expenses/Expenses'
+import NewExpense from './components/Form/NewExpense'
 
 const App = () => {
   // regular JavaScript, cumbersome
@@ -42,7 +43,7 @@ const App = () => {
 
   return(
     <div>
-      <h2>Expense Tracker WebApp</h2>
+      <NewExpense />
       <Expenses expenses={expenses} />
     </div>
   )
