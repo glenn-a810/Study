@@ -6,15 +6,15 @@ const ExpenseForm = () => {
         <form>
             <div className='new-expense__constrols'>
                 <div className='new-expense__control'>
-                    <label>지출내용</label>
-                    <input type='text' />
+                    {/* <label>지출내용</label> */}
+                    <input type='text' placeholder='지출내용' />
                 </div>
                 <div className='new-expense__control'>
-                    <label>비용</label>
-                    <input type='number' min='0' step='0' />
+                    {/* <label>비용</label> */}
+                    <input type='number' min='0' step='0' placeholder='비용' />
                 </div>
                 <div className='new-expense__control'>
-                    <label>날짜</label>
+                    {/* <label>날짜</label> */}
                     <input type='date' min='2019-01-01' max='2025-12-31' />
                 </div>
             </div>
