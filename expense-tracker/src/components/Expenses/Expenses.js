@@ -6,7 +6,8 @@ import './Expenses.css'
 
 const Expenses = (props) => {
     return(
-        <ExpenseFilter>
+        <div>
+            <ExpenseFilter />
             <Card className='expenses'>
                 <ExpenseItem 
                     title={props.expenses[0].title} 
@@ -29,7 +30,7 @@ const Expenses = (props) => {
                     date={props.expenses[3].date}  
                 />
             </Card>
-        </ExpenseFilter>
+        </div>
     )
 }
 
