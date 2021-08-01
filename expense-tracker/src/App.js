@@ -7,7 +7,7 @@ const DUMMY_EXPENSES = [
     id: 'e1',
     title: '자동차 보험',
     amount: 294670,
-    date: new Date(2021, 6, 6)
+    date: new Date(2019, 6, 6)
   },
   {
     id: 'e2',
@@ -19,13 +19,13 @@ const DUMMY_EXPENSES = [
     id: 'e3',
     title: '오드 면역억제제',
     amount: 180000,
-    date: new Date(2021, 5, 16)
+    date: new Date(2020, 5, 16)
   },
   {
     id: 'e4',
     title: '쿠팡 생필품',
     amount: 36700,
-    date: new Date(2021, 6, 4)
+    date: new Date(2022, 6, 4)
   }
 ]
 
