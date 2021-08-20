@@ -1,14 +1,9 @@
 import React from 'react'
+import AddUser from './components/User/AddUser'
 
 const App = () => {
   return(
-    <div>
-      <h3>Username</h3>
-      <input />
-      <h3>Age(Years)</h3>
-      <input />
-      <button>Add User</button>
-    </div>
+    <AddUser />
   )
 }
 
