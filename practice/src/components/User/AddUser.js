@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../UI/Button'
 
 const AddUser = () => {
     return(
@@ -7,8 +8,7 @@ const AddUser = () => {
             <input />
             <h3>나이</h3>
             <input />
-            <p></p>
-            <button>추가</button>
+            <Button />
         </div>
     )
 }
