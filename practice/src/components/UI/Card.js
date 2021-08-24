@@ -1,9 +1,20 @@
 import React from 'react'
 
 const Card = () => {
+    const userData = [
+        {
+            userName : '루이',
+            userAge : 11
+        },
+        {
+            userName : '오드',
+            userAge : 10
+        }
+    ]
+
     return(
         <div>
-            <p>카드 목록 보이는 부분</p>
+            {userData[0].userName}
         </div>
     )
 }
